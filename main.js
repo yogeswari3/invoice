@@ -126,10 +126,13 @@ function displayCart(){
                 $${cartCost}.00
             </h4>
         </div>
+        <div class="button"><button onclick="myfunction1()">PURCHASE</button></div>
         `
         
     }
 }
-
+function myfunction1(){
+    alert('Thank you for your purchase')
+}
 onLoadCartNumbers();
 displayCart();
